@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IrishsAndroidProjects">
         <activity
+            android:name=".OTPLayoutActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
